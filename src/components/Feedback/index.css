@@ -1,0 +1,62 @@
+/* Write your CSS code here. */
+.bg-container {
+  display: flex;
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #fff;
+  height: 50vh;
+  width: 65vw;
+ }
+
+.image {
+  height: 100px;
+  padding: 15px;
+ 
+}
+
+.heading {
+  color: #0f172a;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.emoji-list {
+  list-style: none;
+ 
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+ 
+
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #ffffff;
+ border: none;
+ outline: none;
+ cursor: pointer;
+}
+
+.card-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
